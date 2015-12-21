@@ -1,0 +1,7 @@
+<ul class="menu">
+  <li role="presentation" ui-sref-active="active" ng-repeat="link in links" class="menu-item {{link.class}}">
+    <a ui-sref="{{ link.name }}" >
+      {{ link.value }}
+    </a>
+  </li>
+</ul>

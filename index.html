@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/src/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/src/styles.css" media="screen" title="no title" charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-app="personal">
+    <div class="container">
+      <noscript>
+        Javascript is required to view this page.
+      </noscript>
+      <div class="header">
+        <nav-menu ng-controller="NavController">
+        </nav-menu>
+      </div>
+      <div class="content">
+        <div ui-view></div>
+      </div>
+      <div class="footer">
+      <div>
+      <!-- them scripts -->
+      <script src="bower_components\jquery\dist\jquery.min.js" charset="utf-8"></script>
+      <script src="bower_components\angular\angular.min.js" charset="utf-8"></script>
+      <script src="bower_components\angular-ui-router\release\angular-ui-router.min.js" charset="utf-8"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap.js" charset="utf-8"></script>
+
+      <script src="data\siteData.js" charset="utf-8"></script>
+      <script src="src\app.js" charset="utf-8"></script>
+      <script src="src\nav.directive.js" charset="utf-8"></script>
+    </div>
+  </body>
+</html>

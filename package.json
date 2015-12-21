@@ -1,0 +1,25 @@
+{
+  "name": "simple-site-base",
+  "version": "1.0.0",
+  "description": "simple site template",
+  "main": "express-basic-server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "''"
+  },
+  "author": "Gabar (gewen87@gmail.com)",
+  "license": "GPL-3.0"
+}

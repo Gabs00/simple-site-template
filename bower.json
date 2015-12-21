@@ -1,0 +1,21 @@
+{
+  "name": "site-base-template",
+  "version": "0.0.1",
+  "homepage": "http://www.gabar.us",
+  "authors": [
+    "Gabs00 <gewen87@gmail.com>"
+  ],
+  "description": "site base template",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
