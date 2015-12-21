@@ -10,8 +10,8 @@ gulp.task('start', function(){
 
 gulp.task('compile-less', function(){
   var filepaths = {
-    less: [ './less/*.less' ],
-    includes: ['./bower_components/bootstrap/dist/less']
+    less: [ 'less/*.less' ],
+    includes: ['bower_components/bootstrap/dist/less']
   };
 
   return compileLess( filepaths );
@@ -28,5 +28,5 @@ function compileLess(attrs){
     .pipe(less({
       paths: attrs.includes 
     }))
-    .pipe(gulp.dest('./src'));
+    .pipe(gulp.dest('src'));
 }
